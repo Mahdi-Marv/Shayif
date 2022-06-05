@@ -1,0 +1,26 @@
+{
+  "name": "elecmegh",
+  "code": 124323,
+  "departmentId": 3,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 87,
+  "time": {
+    "season": "falagfl",
+    "dayOfMonth": 0,
+    "day": "saturday, monday",
+    "hour": 8,
+    "year": 213
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 15,
+    "hour": 9,
+    "year": 0
+  },
+  "credit": 4,
+  "temporaryGrades": {},
+  "finalGrades": {},
+  "isDeleted": false
+}

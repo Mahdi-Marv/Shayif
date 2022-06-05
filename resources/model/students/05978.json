@@ -1,0 +1,37 @@
+{
+  "supervisor": {
+    "lecturerType": "headOfDepartment",
+    "lecturerRank": "professor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 321,
+    "officeNumber": 0,
+    "departmentId": 1,
+    "name": "Ostovari",
+    "nationalCode": "651310",
+    "hashedPassword": "6103125012642455849081458879349079511681241954988",
+    "profilePicAddress": "Profile pictures/profile.jpg",
+    "phoneNumber": "0914312654",
+    "isDeleted": false
+  },
+  "studentNumber": "3568",
+  "studentType": "bachelor",
+  "coursesEnrolled": [
+    92193
+  ],
+  "coursesPassed": [],
+  "coursesFailed": [
+    69154
+  ],
+  "sentRequest": [],
+  "respondedRequest": [],
+  "entryYear": 0,
+  "gpa": 0.0,
+  "departmentId": 1,
+  "name": "moghim",
+  "nationalCode": "05978",
+  "hashedPassword": "01027284010837149644174053973245574210951168901936",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "phoneNumber": "948964",
+  "isDeleted": false
+}

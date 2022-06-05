@@ -1,0 +1,50 @@
+{
+  "supervisor": {
+    "lecturerType": "headOfDepartment",
+    "lecturerRank": "professor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 321,
+    "officeNumber": 0,
+    "departmentId": 1,
+    "name": "Ostovari",
+    "nationalCode": "651310",
+    "hashedPassword": "6103125012642455849081458879349079511681241954988",
+    "profilePicAddress": "Profile pictures/profile.jpg",
+    "phoneNumber": "0914312654",
+    "isDeleted": false
+  },
+  "studentNumber": "3658",
+  "studentType": "bachelor",
+  "coursesEnrolled": [
+    92193,
+    109823
+  ],
+  "coursesPassed": [
+    69154
+  ],
+  "coursesFailed": [],
+  "sentRequest": [],
+  "respondedRequest": [
+    1,
+    2,
+    5,
+    1
+  ],
+  "entryYear": 99,
+  "educationState": "educating",
+  "gpa": 0.0,
+  "departmentId": 1,
+  "name": "mahdi",
+  "nationalCode": "871246",
+  "hashedPassword": "81438203612642455849081458879349079511681241954988",
+  "email": "mahdi@ittechInk",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "lastOnline": {
+    "year": 2022,
+    "month": 4,
+    "day": 26
+  },
+  "phoneNumber": "129962",
+  "isDeleted": false
+}

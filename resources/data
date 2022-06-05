@@ -1,0 +1,54 @@
+Department department1 = new Department("Math");
+        Department department2 = new Department("EE");
+        Department department3 = new Department("CE");
+        Department department4 = new Department("Chemical");
+        Department department5 = new Department("Econ");
+        Department department6 = new Department("Civil");
+
+        Lecturer lecturer0 = new Lecturer("Ostovari", "651310", department1.getId(), "0914312654",
+                LecturerType.headOfDepartment, LecturerRank.professor, 321);
+
+        Lecturer lecturer1 = new Lecturer("tefagh", "3135131", department1.getId(),"02132151465",
+                LecturerType.headOfEducation, LecturerRank.assistantProfessor, 156);
+
+        Lecturer lecturer2 = new Lecturer("khazaii", "264645", department1.getId(),"0321654784",
+                LecturerType.normal, LecturerRank.associateProfessor, 1891);
+
+        Lecturer lecturer3 = new Lecturer("tajrishi", "355445", department4.getId(),"492147979",
+                LecturerType.headOfDepartment, LecturerRank.associateProfessor, 617512);
+
+        Lecturer lecturer4 = new Lecturer("nili", "43211", department5.getId(),"297521941",
+                LecturerType.headOfEducation, LecturerRank.professor, 21974);
+
+        Student student1 = new Student("mahdi", "871246", department1.getId(), "129962",
+                lecturer0, "3658", StudentType.bachelor);
+
+        Student student2= new Student("meisam", "8192648",
+                department1.getId(), "921479", lecturer0, "358654", StudentType.bachelor);
+
+        Student student3 = new Student("moghim", "05978",
+                department1.getId(), "948964", lecturer0, "3568", StudentType.bachelor);
+
+        Student student4 = new Student("ahbar", "287523",
+                department1.getId(), "acasc", lecturer0, "35488", StudentType.master);
+
+        Student student5 = new Student("asghar", "237856",
+                department1.getId(), "0991238293u1", lecturer0, "7987", StudentType.phd);
+
+        Time time = new Time("fall", 99234);
+        Time time1 = new Time("str", 99432);
+        Time time2 = new Time("faf", 92439);
+        Time time3= new Time("fal", 99324);
+        Time time4 = new Time("fagfdgdll", 919);
+        Time time5 = new Time("falagfl", 213);
+
+        Course course1 = new Course("ap", 69154, department1.getId(), lecturer0.getNationalCode(), time, 30, 3);
+        Course course2 = new Course("ds", 92193, department1.getId(), lecturer0.getNationalCode(), time1, 40, 2);
+        Course course3 = new Course("blockchain", 109823, department2.getId(), lecturer0.getNationalCode(), time2, 60, 4);
+        Course course4 = new Course("signal", 1253, department2.getId(), lecturer0.getNationalCode(), time3, 80, 3);
+        Course course5 = new Course("ml", 12833, department3.getId(), lecturer0.getNationalCode(), time4, 120, 1);
+        Course course6= new Course("elecmegh", 124323, department3.getId(), lecturer0.getNationalCode(), time5, 87, 4);
+        Course course7 = new Course("adabiat", 316123, department4.getId(), lecturer0.getNationalCode(), time1, 30, 2);
+        Course course8 = new Course("zaban", 123543, department4.getId(), lecturer0.getNationalCode(), time2, 65, 4);
+        Course course9 = new Course("econ", 125113, department5.getId(), lecturer0.getNationalCode(), time3, 95, 2);
+        Course course10 = new Course("micro", 12883, department5.getId(), lecturer0.getNationalCode(), time5, 105, 2);

@@ -1,0 +1,28 @@
+{
+  "name": "blockchain",
+  "code": 109823,
+  "departmentId": 2,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 60,
+  "time": {
+    "season": "faf",
+    "dayOfMonth": 0,
+    "day": "friday-wednesday",
+    "hour": 17,
+    "year": 92439
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 24,
+    "hour": 19,
+    "year": 0
+  },
+  "credit": 4,
+  "temporaryGrades": {
+    "3658": -1.0
+  },
+  "finalGrades": {},
+  "isDeleted": false
+}

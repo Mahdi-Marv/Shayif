@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="814.0" prefWidth="1222.0" style="-fx-background-color: #9B11B3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.StudentHomePage">
+   <children>
+      <TextField fx:id="time" editable="false" layoutX="926.0" layoutY="-1.0" prefHeight="31.0" prefWidth="191.0" style="-fx-background-color: blue;" />
+      <Button fx:id="exitButton" layoutX="1163.0" layoutY="-2.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="30.0" prefWidth="59.0" style="-fx-background-color: red;" text="EXIT" />
+      <TextField fx:id="lastOnline" editable="false" layoutX="611.0" layoutY="-2.0" style="-fx-background-color: blue;" />
+      <ImageView fx:id="profilePic" fitHeight="276.0" fitWidth="264.0" layoutX="14.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" />
+      <MenuBar layoutY="-1.0" prefHeight="44.0" prefWidth="538.0" style="-fx-background-color: purplr;">
+        <menus>
+          <Menu mnemonicParsing="false" text="Register">
+            <items>
+              <MenuItem fx:id="courses" mnemonicParsing="false" onAction="#seeCourses" text="Courses" />
+                  <MenuItem fx:id="lecturers" mnemonicParsing="false" onAction="#seeLecturers" text="Lecturers" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Service">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#seeWeek" text="Week" />
+                  <MenuItem mnemonicParsing="false" onAction="#seeFinalExams" text="Final exam list" />
+                  <MenuItem mnemonicParsing="false" onAction="#requests" text="Requests" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="grade sheet">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#tempGrades" text="Temporary Grades" />
+                  <MenuItem mnemonicParsing="false" onAction="#educationStats" text="Education status" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="profile">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#profile" text="Profile" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="homePage" layoutY="783.0" mnemonicParsing="false" onAction="#homePage" style="-fx-background-color: green;" text="Home" />
+      <Pane layoutX="344.0" layoutY="193.0" prefHeight="334.0" prefWidth="582.0" style="-fx-background-color: aqua;">
+         <children>
+            <TextField fx:id="educationStateText" editable="false" layoutY="28.0" prefHeight="31.0" prefWidth="174.0" text="education state: " />
+            <TextField fx:id="mentorName" editable="false" layoutY="83.0" prefHeight="31.0" prefWidth="124.0" text="mentor: " />
+            <TextField editable="false" layoutY="152.0" prefHeight="31.0" prefWidth="174.0" text="eligible to register: yes" />
+            <TextField fx:id="registerTimeText" editable="false" layoutY="206.0" prefHeight="31.0" prefWidth="154.0" text="register time : " />
+            <TextField fx:id="mentorText" editable="false" layoutX="196.0" layoutY="83.0" prefHeight="31.0" prefWidth="363.0" />
+            <TextField fx:id="eligibleText" editable="false" layoutX="196.0" layoutY="147.0" prefHeight="31.0" prefWidth="363.0" />
+            <TextField fx:id="registerTimeText2" editable="false" layoutX="196.0" layoutY="206.0" prefHeight="31.0" prefWidth="363.0" />
+            <TextField fx:id="nameEmail" alignment="CENTER" editable="false" layoutX="107.0" layoutY="289.0" prefHeight="31.0" prefWidth="363.0" text="name and email" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

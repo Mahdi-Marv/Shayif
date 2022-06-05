@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="656.0" prefWidth="1050.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LecturerHomePage">
+   <children>
+      <Button fx:id="exitBtn" layoutX="1001.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: red;" text="EXIT" />
+      <TextField fx:id="time" editable="false" layoutX="760.0" />
+      <TextField fx:id="name_email" editable="false" layoutX="9.0" layoutY="403.0" prefHeight="31.0" prefWidth="214.0" />
+      <ImageView fx:id="profilePic" fitHeight="186.0" fitWidth="232.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+      <MenuBar layoutY="-1.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Profile">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#goToProfile" text="Profile" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Register">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#goToCourses" text="see Courses" />
+                  <MenuItem mnemonicParsing="false" onAction="#goToLecturers" text="See Lecturers" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Service">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#seeWeeklyTable" text="Weekly Table" />
+                  <MenuItem mnemonicParsing="false" onAction="#seeFinalExamSchedule" text="Final Exam Schedule" />
+                  <MenuItem mnemonicParsing="false" onAction="#seeRequests" text="Requests" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Grades">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#goToTempGrades" text="Temporary Grades" />
+                  <MenuItem fx:id="eduState" mnemonicParsing="false" onAction="#goToEduState" text="Education State" />
+            </items>
+          </Menu>
+            <Menu fx:id="addUser" mnemonicParsing="false" text="Add User">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#goToAddUser" text="Add User" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <TextField fx:id="lastOnline" layoutX="554.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

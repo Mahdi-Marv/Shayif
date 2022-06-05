@@ -1,0 +1,26 @@
+{
+  "name": "zaban",
+  "code": 123543,
+  "departmentId": 4,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 65,
+  "time": {
+    "season": "faf",
+    "dayOfMonth": 0,
+    "day": "friday-wednesday",
+    "hour": 17,
+    "year": 92439
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 16,
+    "hour": 19,
+    "year": 0
+  },
+  "credit": 4,
+  "temporaryGrades": {},
+  "finalGrades": {},
+  "isDeleted": false
+}

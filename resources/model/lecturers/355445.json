@@ -1,0 +1,15 @@
+{
+  "lecturerType": "headOfDepartment",
+  "lecturerRank": "associateProfessor",
+  "requestsNotResponded": [],
+  "requestsResponded": [],
+  "lecturerNumber": 617512,
+  "officeNumber": 0,
+  "departmentId": 4,
+  "name": "tajrishi",
+  "nationalCode": "355445",
+  "hashedPassword": "3101516203012642455849081458879349079511681241954988",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "phoneNumber": "492147979",
+  "isDeleted": false
+}

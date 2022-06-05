@@ -1,0 +1,26 @@
+{
+  "id": 4,
+  "name": "Chemical",
+  "lecturerIds": [
+    "355445"
+  ],
+  "studentIds": [],
+  "courseIds": [
+    316123,
+    123543
+  ],
+  "headOfDepartment": {
+    "lecturerType": "headOfDepartment",
+    "lecturerRank": "associateProfessor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 617512,
+    "officeNumber": 0,
+    "departmentId": 4,
+    "name": "tajrishi",
+    "nationalCode": "355445",
+    "hashedPassword": "3101516203012642455849081458879349079511681241954988",
+    "profilePicAddress": "Profile pictures/profile.jpg",
+    "phoneNumber": "492147979"
+  }
+}

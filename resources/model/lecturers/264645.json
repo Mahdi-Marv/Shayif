@@ -1,0 +1,15 @@
+{
+  "lecturerType": "normal",
+  "lecturerRank": "associateProfessor",
+  "requestsNotResponded": [],
+  "requestsResponded": [],
+  "lecturerNumber": 1891,
+  "officeNumber": 0,
+  "departmentId": 1,
+  "name": "khazaii",
+  "nationalCode": "264645",
+  "hashedPassword": "2121224203012642455849081458879349079511681241954988",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "phoneNumber": "0321654784",
+  "isDeleted": false
+}

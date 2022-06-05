@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "name": "EE",
+  "lecturerIds": [],
+  "studentIds": [],
+  "courseIds": [
+    109823,
+    1253
+  ]
+}

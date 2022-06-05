@@ -1,0 +1,26 @@
+{
+  "name": "micro",
+  "code": 12883,
+  "departmentId": 5,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 105,
+  "time": {
+    "season": "falagfl",
+    "dayOfMonth": 0,
+    "day": "saturday, monday",
+    "hour": 8,
+    "year": 213
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 12,
+    "hour": 39,
+    "year": 0
+  },
+  "credit": 2,
+  "temporaryGrades": {},
+  "finalGrades": {},
+  "isDeleted": false
+}

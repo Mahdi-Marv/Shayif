@@ -1,0 +1,43 @@
+{
+  "supervisor": {
+    "lecturerType": "headOfEducation",
+    "lecturerRank": "assistantProfessor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 156,
+    "officeNumber": 0,
+    "departmentId": 1,
+    "name": "tefagh",
+    "nationalCode": "3135131",
+    "hashedPassword": "3292051871444776205398886378545258481241131410071040",
+    "email": "tefagh@outlook",
+    "profilePicAddress": "Profile pictures/proPic.png",
+    "lastOnline": {
+      "year": 2022,
+      "month": 4,
+      "day": 26
+    },
+    "phoneNumber": "02132151465",
+    "isDeleted": false
+  },
+  "studentNumber": "16",
+  "studentType": "phd",
+  "coursesEnrolled": [],
+  "coursesPassed": [],
+  "coursesFailed": [],
+  "sentRequest": [],
+  "respondedRequest": [
+    3
+  ],
+  "entryYear": 1997,
+  "educationState": "droppedOut",
+  "gpa": 0.0,
+  "departmentId": 1,
+  "name": "charles",
+  "nationalCode": "471124",
+  "hashedPassword": "41434102412642455849081458879349079511681241954988",
+  "email": "leclerc@scuderia",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "phoneNumber": "0361267",
+  "isDeleted": true
+}

@@ -1,0 +1,26 @@
+{
+  "name": "econ",
+  "code": 125113,
+  "departmentId": 5,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 95,
+  "time": {
+    "season": "fal",
+    "dayOfMonth": 0,
+    "day": "monday, friday",
+    "hour": 19,
+    "year": 99324
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 9,
+    "hour": 931,
+    "year": 0
+  },
+  "credit": 2,
+  "temporaryGrades": {},
+  "finalGrades": {},
+  "isDeleted": false
+}

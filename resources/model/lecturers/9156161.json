@@ -1,0 +1,16 @@
+{
+  "lecturerType": "normal",
+  "lecturerRank": "professor",
+  "requestsNotResponded": [],
+  "requestsResponded": [],
+  "lecturerNumber": 81911,
+  "officeNumber": 77,
+  "departmentId": 1,
+  "name": "ronaldo",
+  "nationalCode": "9156161",
+  "hashedPassword": "92152453671444776205398886378545258481241131410071040",
+  "email": "ronaldo@gmail.com",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "phoneNumber": "0395416",
+  "isDeleted": true
+}

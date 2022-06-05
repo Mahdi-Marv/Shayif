@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="762.0" prefWidth="1129.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddAndEditCourses">
+   <children>
+      <Button fx:id="exitBtn" layoutX="820.0" layoutY="-1.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: red;" text="EXIT" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button layoutY="631.0" mnemonicParsing="false" onAction="#returnHome" style="-fx-background-color: green;" text="HOME" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+      <Pane layoutX="101.0" layoutY="127.0" prefHeight="574.0" prefWidth="939.0" style="-fx-background-color: aqua;">
+         <children>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutX="4.0" layoutY="37.0" prefHeight="48.0" prefWidth="133.0" style="-fx-background-color: aqua;" text="name:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutY="116.0" prefHeight="48.0" prefWidth="166.0" style="-fx-background-color: aqua;" text="course code:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutX="397.0" layoutY="116.0" prefHeight="48.0" prefWidth="166.0" style="-fx-background-color: aqua;" text="lecturer id:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutY="203.0" prefHeight="48.0" prefWidth="166.0" style="-fx-background-color: aqua;" text="course time:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutX="487.0" layoutY="203.0" prefHeight="48.0" prefWidth="205.0" style="-fx-background-color: aqua;" text="course capacity:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutX="4.0" layoutY="287.0" prefHeight="48.0" prefWidth="179.0" style="-fx-background-color: aqua;" text="course credit:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER_RIGHT" editable="false" layoutX="448.0" layoutY="287.0" prefHeight="48.0" prefWidth="205.0" style="-fx-background-color: aqua;" text="final exam time:">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="nameText" layoutX="166.0" layoutY="46.0" />
+            <TextField fx:id="courseCodeText" layoutX="198.0" layoutY="125.0" />
+            <TextField fx:id="courseTimeText" layoutX="198.0" layoutY="220.0" prefHeight="31.0" prefWidth="269.0" />
+            <TextField fx:id="creditText" layoutX="210.0" layoutY="296.0" />
+            <TextField fx:id="lecturerIdText" layoutX="627.0" layoutY="125.0" />
+            <TextField fx:id="capacityText" layoutX="708.0" layoutY="212.0" />
+            <TextField fx:id="examTimeText" layoutX="663.0" layoutY="296.0" />
+            <TextField fx:id="errorMessage" alignment="CENTER" layoutX="267.0" layoutY="495.0" prefHeight="38.0" prefWidth="349.0" style="-fx-background-color: aqua; -fx-text-fill: red;">
+               <font>
+                  <Font name="Arial Black" size="19.0" />
+               </font>
+            </TextField>
+            <Button fx:id="showCourseBtn" layoutX="713.0" layoutY="367.0" mnemonicParsing="false" onAction="#showCourse" prefHeight="42.0" prefWidth="88.0" text="show" />
+            <Button fx:id="addCourseBtn" layoutX="83.0" layoutY="367.0" mnemonicParsing="false" onAction="#addCourse" prefHeight="42.0" prefWidth="75.0" text="add" />
+            <Button fx:id="editBtn" layoutX="612.0" layoutY="367.0" mnemonicParsing="false" onAction="#editCourse" prefHeight="42.0" prefWidth="82.0" text="Edit" />
+         </children>
+      </Pane>
+      <Button fx:id="chooseEditBtn" layoutX="692.0" layoutY="53.0" mnemonicParsing="false" onAction="#chooseEdit" text="EDIT" />
+      <Button fx:id="chooseAddBtn" layoutX="383.0" layoutY="53.0" mnemonicParsing="false" onAction="#chooseAdd" text="ADD" />
+   </children>
+</AnchorPane>

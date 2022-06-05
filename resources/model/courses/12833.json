@@ -1,0 +1,26 @@
+{
+  "name": "ml",
+  "code": 12833,
+  "departmentId": 3,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 120,
+  "time": {
+    "season": "fagfdgdll",
+    "dayOfMonth": 0,
+    "day": "friday, thursday",
+    "hour": 12,
+    "year": 919
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 1,
+    "hour": 19,
+    "year": 0
+  },
+  "credit": 1,
+  "temporaryGrades": {},
+  "finalGrades": {},
+  "isDeleted": false
+}

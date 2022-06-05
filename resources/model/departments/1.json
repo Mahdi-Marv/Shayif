@@ -1,0 +1,52 @@
+{
+  "id": 1,
+  "name": "Math",
+  "lecturerIds": [
+    "651310",
+    "3135131",
+    "264645",
+    "9156161"
+  ],
+  "studentIds": [
+    "871246",
+    "8192648",
+    "05978",
+    "287523",
+    "237856",
+    "471124"
+  ],
+  "courseIds": [
+    69154,
+    92193
+  ],
+  "headOfDepartment": {
+    "lecturerType": "headOfDepartment",
+    "lecturerRank": "professor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 321,
+    "officeNumber": 0,
+    "departmentId": 1,
+    "name": "Ostovari",
+    "nationalCode": "651310",
+    "hashedPassword": "6103125012642455849081458879349079511681241954988",
+    "profilePicAddress": "Profile pictures/profile.jpg",
+    "phoneNumber": "0914312654",
+    "isDeleted": false
+  },
+  "headOfEducation": {
+    "lecturerType": "headOfEducation",
+    "lecturerRank": "assistantProfessor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 156,
+    "officeNumber": 0,
+    "departmentId": 1,
+    "name": "tefagh",
+    "nationalCode": "3135131",
+    "hashedPassword": "3292051871444776205398886378545258481241131410071040",
+    "profilePicAddress": "Profile pictures/profile.jpg",
+    "phoneNumber": "02132151465",
+    "isDeleted": false
+  }
+}

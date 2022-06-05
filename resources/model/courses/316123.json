@@ -1,0 +1,26 @@
+{
+  "name": "adabiat",
+  "code": 316123,
+  "departmentId": 4,
+  "prerequisiteIds": [],
+  "lecturerNationalCode": "651310",
+  "studentsIds": [],
+  "capacity": 30,
+  "time": {
+    "season": "str",
+    "dayOfMonth": 0,
+    "day": "saturday-thursday",
+    "hour": 15,
+    "year": 99432
+  },
+  "finalExamTime": {
+    "month": "tir",
+    "dayOfMonth": 11,
+    "hour": 931,
+    "year": 0
+  },
+  "credit": 2,
+  "temporaryGrades": {},
+  "finalGrades": {},
+  "isDeleted": false
+}

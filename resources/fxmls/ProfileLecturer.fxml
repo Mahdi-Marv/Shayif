@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="831.0" prefWidth="1115.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ProfileLecturer">
+   <children>
+      <Pane layoutX="208.0" layoutY="153.0" prefHeight="529.0" prefWidth="700.0" style="-fx-background-color: aqua;">
+         <children>
+            <TextField fx:id="lecturerNumber" editable="false" layoutX="440.0" layoutY="31.0" text="lecturer number" />
+            <TextField fx:id="phoneNumber" editable="false" layoutX="440.0" layoutY="182.0" text="phone number" />
+            <TextField fx:id="email" editable="false" layoutX="440.0" layoutY="399.0" text="email" />
+            <TextField fx:id="department" editable="false" layoutX="440.0" layoutY="326.0" text="department" />
+            <TextField fx:id="officeNumber" editable="false" layoutX="440.0" layoutY="105.0" text="office number" />
+            <TextField fx:id="rank" editable="false" layoutX="440.0" layoutY="255.0" text="rank" />
+            <ImageView fx:id="profilePic" fitHeight="150.0" fitWidth="186.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField alignment="CENTER" editable="false" layoutX="210.0" layoutY="25.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: aqua;" text="lecturer number">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" layoutX="219.0" layoutY="99.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: aqua;" text="office number">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" layoutX="226.0" layoutY="176.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: aqua;" text="phone number">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" layoutX="226.0" layoutY="249.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: aqua;" text="rank">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" layoutX="226.0" layoutY="320.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: aqua;" text="department">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" editable="false" layoutX="226.0" layoutY="393.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: aqua;" text="email">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <TextField fx:id="name" editable="false" layoutX="748.0" layoutY="8.0" text="name" />
+      <Button fx:id="exitBtn" layoutX="1066.0" layoutY="-1.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: red;" text="EXIT" />
+      <Button layoutY="804.0" mnemonicParsing="false" onAction="#returnHome" style="-fx-background-color: green;" text="HOME" />
+      <TextField fx:id="nationalCode" editable="false" layoutX="271.0" layoutY="15.0" text="national code" />
+      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="522.0" layoutY="2.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: purple;" text="name">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="42.0" layoutY="9.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-color: purple;" text="national code">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

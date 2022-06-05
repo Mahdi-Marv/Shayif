@@ -1,0 +1,22 @@
+{
+  "lecturerType": "headOfEducation",
+  "lecturerRank": "professor",
+  "requestsNotResponded": [],
+  "requestsResponded": [
+    2
+  ],
+  "lecturerNumber": 21974,
+  "officeNumber": 0,
+  "departmentId": 5,
+  "name": "nili",
+  "nationalCode": "43211",
+  "hashedPassword": "4664510837149644174053973245574210951168901936",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "lastOnline": {
+    "year": 2022,
+    "month": 4,
+    "day": 26
+  },
+  "phoneNumber": "297521941",
+  "isDeleted": false
+}

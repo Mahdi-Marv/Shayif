@@ -1,0 +1,26 @@
+{
+  "id": 5,
+  "name": "Econ",
+  "lecturerIds": [
+    "43211"
+  ],
+  "studentIds": [],
+  "courseIds": [
+    125113,
+    12883
+  ],
+  "headOfEducation": {
+    "lecturerType": "headOfEducation",
+    "lecturerRank": "professor",
+    "requestsNotResponded": [],
+    "requestsResponded": [],
+    "lecturerNumber": 21974,
+    "officeNumber": 0,
+    "departmentId": 5,
+    "name": "nili",
+    "nationalCode": "43211",
+    "hashedPassword": "4664510837149644174053973245574210951168901936",
+    "profilePicAddress": "Profile pictures/profile.jpg",
+    "phoneNumber": "297521941"
+  }
+}

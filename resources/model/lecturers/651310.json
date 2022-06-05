@@ -1,0 +1,23 @@
+{
+  "lecturerType": "headOfDepartment",
+  "lecturerRank": "professor",
+  "requestsNotResponded": [],
+  "requestsResponded": [
+    1,
+    2
+  ],
+  "lecturerNumber": 321,
+  "officeNumber": 0,
+  "departmentId": 1,
+  "name": "Ostovari",
+  "nationalCode": "651310",
+  "hashedPassword": "6103125012642455849081458879349079511681241954988",
+  "profilePicAddress": "Profile pictures/proPic.png",
+  "lastOnline": {
+    "year": 2022,
+    "month": 4,
+    "day": 26
+  },
+  "phoneNumber": "0914312654",
+  "isDeleted": false
+}
